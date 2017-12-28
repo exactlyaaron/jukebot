@@ -13,10 +13,12 @@ This is a code experiment to create a chatbot to serve up youtube videos. It use
 **NOTE!** Please test in latest version of Chrome browser.
 
 ## Install and Running
-`git clone https://github.com/exactlyaaron/jukebot.git`
+1. `git clone https://github.com/exactlyaaron/jukebot.git`
 
+2. `cd jukebot`
 
-1. cd jukebot
-2. npm install
-3. npm start
-4. navigate to http://localhost:3000 in your browser of choice.
+3. `npm install`
+
+4. `npm start`
+
+5. navigate to http://localhost:3000 in your browser of choice.
