@@ -6,6 +6,7 @@ import VoiceRecognition from './components/VoiceRecognition'
 import css from './App.css';
 import Fuse from 'fuse.js';
 // import VoicePlayer from './VoicePlayer'
+import logo from './assets/logo.svg';
 
 class App extends Component {
 
@@ -317,6 +318,9 @@ class App extends Component {
   render() {
     return (
       <div style={{ textAlign: "center" }} id=''>
+        <div className="mobile-logo-wrapper">
+          <img src={logo} alt="" className="mobile-logo"/>
+        </div>
         <div className="chatbot-wrapper">
           <VoiceRecognition
             ref={'vr'}

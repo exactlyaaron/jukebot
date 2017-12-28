@@ -258,3 +258,51 @@ body {
    opacity: 0;
  }
 }
+
+.mobile-logo-wrapper {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  .chatbot-wrapper {
+    background: #555;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+  }
+
+  .chatbot-content {
+    margin: 0px 4px;
+    height: calc(100% - 85px);
+    border-bottom: 1px solid #333;
+  }
+
+  .chatbot-button {
+    bottom: 20px;
+  }
+
+  .mobile-logo-wrapper {
+    display: block;
+    position: absolute;
+    height: 70px;
+    background: #222;
+    text-align: center;
+    z-index: 50;
+    width: 100%;
+  }
+
+  .mobile-logo {
+    width: 180px;
+    margin-top: 10px;
+  }
+}
